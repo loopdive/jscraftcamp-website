@@ -1,0 +1,61 @@
+svg {
+	height: auto;
+	width: auto;
+}
+.rotater {
+	transition: rotate 1s;
+	transform-origin: 50% 50%;
+}
+svg:not(.animYears):hover .rotater {
+	rotate: 360deg;
+	transform-origin: 50% 50%;
+}
+svg .back + text {
+	font-size: 1em;
+	font-weight: 600;
+	opacity: 0;
+}
+svg.animYears .year-2023 .back + * + .front,
+svg.animYears .year-2022 .back + * + .front,
+svg.animYears .year-2019 .back + * + .front,
+svg.animYears .year-2018 .back + * + .front,
+svg.animYears .year-2017 .back + * + .front,
+svg.animYears .year-2016 .back + * + .front {
+	opacity: 1;
+	rotate: 0deg;
+	transition:
+		rotate 1s,
+		opacity 1000ms;
+	transform-box: fill-box;
+	transform-origin: center;
+}
+svg.animYears .year-2023 .back + text,
+svg.animYears .year-2022 .back + text,
+svg.animYears .year-2019 .back + text,
+svg.animYears .year-2018 .back + text,
+svg.animYears .year-2017 .back + text,
+svg.animYears .year-2016 .back + text {
+	transition: opacity 500ms;
+	opacity: 0;
+}
+svg.animYears .year-2023:hover .back + text,
+svg.animYears .year-2022:hover .back + text,
+svg.animYears .year-2019:hover .back + text,
+svg.animYears .year-2018:hover .back + text,
+svg.animYears .year-2017:hover .back + text,
+svg.animYears .year-2016:hover .back + text {
+	transition: opacity 500ms 500ms;
+	opacity: 1;
+}
+svg.animYears .year-2023:hover .back + * + .front,
+svg.animYears .year-2022:hover .back + * + .front,
+svg.animYears .year-2019:hover .back + * + .front,
+svg.animYears .year-2018:hover .back + * + .front,
+svg.animYears .year-2017:hover .back + * + .front,
+svg.animYears .year-2016:hover .back + * + .front {
+	transition:
+		rotate 1s,
+		opacity 1000ms 500ms;
+	opacity: 0;
+	rotate: 540deg;
+}

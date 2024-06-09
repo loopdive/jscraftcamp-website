@@ -1,6 +1,6 @@
 <script lang="ts">
 	import InfoBox from '$lib/layout/InfoBox.svelte';
-	import PageLayout from '$lib/layout/PageLayout.svelte';
+	import PageLayout from '$lib/layout/page/template.html';
 	import type { TShirtSize } from '$lib/participants/participant-schema';
 	import type { PageData } from './$types';
 

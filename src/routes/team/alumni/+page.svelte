@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-	import PageLayout from '$lib/layout/PageLayout.svelte';
+	import PageLayout from '$lib/layout/page/template.html';
 	import TeamMember from '../TeamMember.svelte';
 	import TeamMemberSection from '../TeamMemberSection.svelte';
 	import agnes from './agnes.png';

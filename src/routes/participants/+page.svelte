@@ -1,10 +1,8 @@
 <script lang="ts">
-	import InfoBox from '$lib/layout/InfoBox.svelte';
-	import PageLayout from '$lib/layout/PageLayout.svelte';
-	import Participant from '../../lib/participants/Participant.svelte';
-	import type { Participant as ParticipantT } from '$lib/participants/participant-schema';
 	import { base } from '$app/paths';
-	import type { PageData } from './$types';
+	import InfoBox from '$lib/layout/InfoBox.svelte';
+	import PageLayout from '$lib/layout/page/template.html';
+	import type { Participant as ParticipantT } from '$lib/participants/participant-schema';
 	import {
 		getRegistrationState,
 		isRegistrationOpen,
@@ -12,6 +10,8 @@
 		timeLeft
 	} from '$lib/participants/registration';
 	import { writable } from 'svelte/store';
+	import Participant from '../../lib/participants/Participant.svelte';
+	import type { PageData } from './$types';
 
 	export let data: PageData;
 

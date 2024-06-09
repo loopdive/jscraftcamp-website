@@ -1,26 +1,26 @@
 <script lang="ts">
-	import { writable } from 'svelte/store';
+	import { base } from '$app/paths';
 	import InfoBox from '$lib/layout/InfoBox.svelte';
-	import PageLayout from '$lib/layout/PageLayout.svelte';
 	import Logo from '$lib/layout/Logo.svelte';
-	import discord from './discord.svg';
-	import github from './github.svg';
-	import linkedIn from './linked-in.png';
-	import skyline from './skyline.svg';
-	import twitter from './twitter.svg';
-	import mastodon from './mastodon.svg';
-	import WhatToExpect from './WhatYouCanExpect.svelte';
+	import PageLayout from '$lib/layout/page/template.html';
 	import {
 		getRegistrationState,
 		registrationClosessAt,
 		registrationOpensAt,
 		timeLeft
 	} from '$lib/participants/registration';
-	import { base } from '$app/paths';
 	import Partners from '$lib/sponsoring/Partners.svelte';
 	import Sponsors from '$lib/sponsoring/Sponsors2024.svelte';
-	import Schedule from './Schedule.svelte';
+	import { writable } from 'svelte/store';
 	import type { PageData } from './$types';
+	import Schedule from './Schedule.svelte';
+	import WhatToExpect from './WhatYouCanExpect.svelte';
+	import discord from './discord.svg';
+	import github from './github.svg';
+	import linkedIn from './linked-in.png';
+	import mastodon from './mastodon.svg';
+	import skyline from './skyline.svg';
+	import twitter from './twitter.svg';
 
 	export let data: PageData;
 

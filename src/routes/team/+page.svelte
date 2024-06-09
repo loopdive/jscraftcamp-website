@@ -1,17 +1,17 @@
 <script lang="ts">
 	import { base } from '$app/paths';
 	import InfoBox from '$lib/layout/InfoBox.svelte';
-	import PageLayout from '$lib/layout/PageLayout.svelte';
-	import joern from './joern.jpg';
-	import robert from './robert.png';
-	import bernd from './bernd.webp';
-	import fii from './fii.jpg';
-	import philip from './philip.jpeg';
-	import leo from './leo.webp';
-	import sina from './sina.jpeg';
-	import wolfram from './wolfram.jpg';
+	import PageLayout from '$lib/layout/page/template.html';
 	import TeamMember from './TeamMember.svelte';
 	import TeamMemberSection from './TeamMemberSection.svelte';
+	import bernd from './bernd.webp';
+	import fii from './fii.jpg';
+	import joern from './joern.jpg';
+	import leo from './leo.webp';
+	import philip from './philip.jpeg';
+	import robert from './robert.png';
+	import sina from './sina.jpeg';
+	import wolfram from './wolfram.jpg';
 </script>
 
 <PageLayout>

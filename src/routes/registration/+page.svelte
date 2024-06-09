@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { base } from '$app/paths';
 	import InfoBox from '$lib/layout/InfoBox.svelte';
-	import PageLayout from '$lib/layout/PageLayout.svelte';
+	import PageLayout from '$lib/layout/page/template.html';
 	import RegistrationTemplate from '../../../participants/_template.json?raw';
 </script>
 

@@ -6,14 +6,6 @@
 	import '@fontsource/source-sans-pro/700.css';
 </script>
 
-<svelte:head>
-	<title>JSCraftCamp</title>
-	<meta
-		name="description"
-		content="JSCraftCamp is a free open space / barcamp in Munich with focus on JavaScript."
-	/>
-</svelte:head>
-
 <slot />
 
 <style>

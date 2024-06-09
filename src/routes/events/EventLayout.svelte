@@ -1,6 +1,6 @@
 <script lang="ts">
 	import InfoBox from '$lib/layout/InfoBox.svelte';
-	import PageLayout from '$lib/layout/PageLayout.svelte';
+	import PageLayout from '$lib/layout/page/template.html';
 
 	export let archiveLink: string | undefined = undefined;
 	export let logo: string | undefined = undefined;

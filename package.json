@@ -17,13 +17,14 @@
 		"logos": "tsx scripts/logo-to-social-media-pngs.ts",
 		"update-schema": "tsx create-json-schema.ts > static/schemas/participants.2024.json && prettier --write ./static/schemas/participants.2024.json"
 	},
-	"packageManager": "pnpm@9.1.0",
+	"packageManager": "pnpm@9.1.2",
 	"devDependencies": {
 		"@fontsource/poppins": "5.0.14",
 		"@fontsource/source-sans-pro": "5.0.8",
 		"@playwright/test": "^1.44.0",
 		"@sveltejs/adapter-static": "2.0.3",
 		"@sveltejs/kit": "1.30.4",
+		"@types/jsdom": "^21.1.7",
 		"@types/node": "^20.14.1",
 		"@typescript-eslint/eslint-plugin": "7.8.0",
 		"@typescript-eslint/parser": "7.8.0",
@@ -44,5 +45,12 @@
 		"zod": "3.23.8",
 		"zod-to-json-schema": "3.23.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@loopdive/web-components": "^1.1.0",
+		"global-jsdom": "^24.0.0",
+		"jsdom": "^24.1.0",
+		"linkedom": "^0.18.3",
+		"linkedom-global": "^1.0.0"
+	}
 }

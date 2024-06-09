@@ -1,7 +1,7 @@
 <script lang="ts">
-	import PageLayout from '$lib/layout/PageLayout.svelte';
-	import InfoBox from '../../lib/layout/InfoBox.svelte';
+	import PageLayout from '$lib/layout/page/template.html';
 	import Sponsors from '$lib/sponsoring/Sponsors2024.svelte';
+	import InfoBox from '../../lib/layout/InfoBox.svelte';
 </script>
 
 <PageLayout>

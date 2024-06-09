@@ -1,0 +1,104 @@
+<div class="page">
+	<header>
+		<input id="navbar-open" type="checkbox" />
+		<label for="navbar-open">
+			<img
+				style="height: 40px; width: 40px"
+				src="images/jscraftcamp-logo.svg"
+				alt="JSCraftcamp Logo"
+			/>
+			<span>JSCraftCamp</span>
+			<div class="menu-icon">+</div></label
+		>
+		<nav>
+			<ul>
+				<li class="home">
+					<a href="/">
+						<img
+							style="height: 40px; width: 40px"
+							src="images/jscraftcamp-logo.svg"
+							alt="JSCraftcamp Logo"
+						/>
+						<div>JSCraftCamp</div></a
+					>
+				</li>
+				<li class="mobile-home"><a href="/">Home</a></li>
+				<li><a href="registration">Registration</a></li>
+				<li><a href="participants">Participants</a></li>
+				<li><a href="sponsoring">Sponsoring</a></li>
+				<li><a href="venue">Venue</a></li>
+				<li><a href="values">Values</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="content">
+		<div>
+			<slot />
+		</div>
+	</div>
+	<footer>
+		<div>
+			<img style="max-width: 6em" src="images/jscraftcamp-logo.svg" alt="JSCraftcamp Logo" />
+			<section>
+				<h3>Sitemap</h3>
+				<nav>
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li><a href="sponsoring">Sponsoring</a></li>
+						<li><a href="values">Values</a></li>
+						<li><a href="imprint">Imprint</a></li>
+						<li><a href="imprint#datenschutz">Privacy Policy</a></li>
+					</ul>
+				</nav>
+			</section>
+			<section>
+				<h3>Get in touch</h3>
+				<nav>
+					<ul>
+						<li><a href="team">Team</a></li>
+						<li><a href="https://twitter.com/jscraftcamp" rel="external">Twitter</a></li>
+						<li><a href="https://github.com/jscraftcamp/website" rel="external">GitHub</a></li>
+						<li><a href="https://discord.gg/3mHhaXVEjP" rel="external">Discord</a></li>
+					</ul>
+				</nav>
+			</section>
+			<section>
+				<h3>Archive</h3>
+				<nav>
+					<ul>
+						<li>
+							<a href="events/2023">2023</a>
+						</li>
+						<li>
+							<a href="events/2022">2022</a>
+						</li>
+						<li>
+							<a href="events/2019">2019</a>
+						</li>
+						<li>
+							<a href="events/2018">2018</a>
+						</li>
+						<li>
+							<a href="events/2017">2017</a>
+						</li>
+						<li>
+							<a href="events/2016">2016</a>
+						</li>
+					</ul>
+				</nav>
+			</section>
+			<section>
+				<h3>Hosted on</h3>
+				<nav>
+					<ul>
+						<li>
+							<a href="https://www.netlify.com/" rel="external"
+								><img src="images/netlify.svg" alt="Netlify logo" /><span>Netlify</span></a
+							>
+						</li>
+					</ul>
+				</nav>
+			</section>
+		</div>
+	</footer>
+</div>
