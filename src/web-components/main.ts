@@ -3,15 +3,13 @@ import '@fontsource/poppins/600.css';
 import '@fontsource/source-sans-pro';
 import '@fontsource/source-sans-pro/600.css';
 import '@fontsource/source-sans-pro/700.css';
-import { customElement, html } from '@loopdive/web-components';
+import { defineCustomElement, formatHTML, getInnerHTML, html } from '@loopdive/web-components';
 import * as homepage from './routes/page';
 
-customElement(homepage);
+defineCustomElement(homepage);
 
-const l = html`<home-page></home-page>`;
+window.onload = async () => {
+	document.body.innerHTML = html`<home-page></home-page>`.string;
 
-window.onload = () => {
-	console.log('window.onload');
-
-	document.body.appendChild(l.content);
+	console.log(await formatHTML(await getInnerHTML(document.body, { includeShadowRoots: true })));
 };

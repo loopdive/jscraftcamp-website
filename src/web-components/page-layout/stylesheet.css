@@ -1,17 +1,16 @@
 .page {
-	/* background: linear-gradient(135deg, hsla(120, 100%, 20%, 0.1), #fff 20em),
-linear-gradient(-45deg, hsla(120, 100%, 15%, 0.1), #fff 20em); */
 	display: flex;
 	flex-flow: column;
+	align-items: center;
 	gap: 2em;
+	width: 100%;
 	min-height: 100vh;
 	color: #fff;
 }
 
 .content {
 	flex: 1;
-	padding: 0 2rem;
-	z-index: 0;
+	/* padding: 0 2rem; */
 }
 
 .content > div {
@@ -32,8 +31,10 @@ header a:hover {
 }
 
 header {
+	position: absolute;
+	top: 0;
 	padding: 2rem 2rem 0 2rem;
-	min-width: 100%;
+	width: calc(100% - 4rem);
 	max-width: var(--max-page-width);
 }
 
@@ -41,6 +42,7 @@ header nav {
 	display: flex;
 	flex-flow: row wrap;
 	align-items: center;
+	justify-content: space-between;
 	gap: 2em;
 	margin: 0 auto;
 	max-width: var(--max-page-width);
@@ -56,12 +58,13 @@ header input {
 
 header li {
 	list-style: none;
+	font-size: 20px;
 }
 
 header li.home,
 label {
 	flex: 1;
-	font-size: 26px;
+	font-size: 32px;
 	font-weight: 600;
 	font-family: 'Poppins';
 }
@@ -96,7 +99,7 @@ label span {
 	transition: rotate 500ms;
 }
 
-@media screen and (max-width: 44em) {
+@media screen and (max-width: 60em) {
 	label {
 		display: flex;
 	}

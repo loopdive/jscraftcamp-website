@@ -1,9 +1,9 @@
 <script>
-	import { customElement } from '@loopdive/web-components';
+	import { defineCustomElement } from '@loopdive/web-components';
 	import FooterNavigation from './FooterNavigation.svelte';
 	import * as jscraftcamp from './logo';
 
-	customElement(jscraftcamp);
+	defineCustomElement(jscraftcamp);
 </script>
 
 <div class="page">

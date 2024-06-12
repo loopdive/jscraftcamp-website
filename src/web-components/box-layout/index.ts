@@ -1,3 +1,3 @@
-import styles from './styles.css?raw' assert { type: 'css' };
+import css from './stylesheet.css?raw' assert { type: 'css' };
 
-export { styles };
+export { css };
