@@ -3,10 +3,16 @@ import '@fontsource/poppins/600.css';
 import '@fontsource/source-sans-pro';
 import '@fontsource/source-sans-pro/600.css';
 import '@fontsource/source-sans-pro/700.css';
-import { defineCustomElement, formatHTML, getInnerHTML, html } from '@loopdive/web-components';
-import * as homepage from './routes/page';
+import {
+	CustomElementConfig,
+	defineCustomElement,
+	formatHTML,
+	getInnerHTML,
+	html
+} from '@loopdive/web-components';
+import homepage from './routes/page';
 
-defineCustomElement(homepage);
+defineCustomElement(homepage as CustomElementConfig);
 
 window.onload = async () => {
 	document.body.innerHTML = html`<home-page></home-page>`.string;
