@@ -1,0 +1,99 @@
+[
+	{
+		"image": "2024/sponsors/abs-logo.svg",
+		"link": "https://www.absturzsicherung.de/",
+		"name": "ABS SAFETY GMBH",
+		"sponsoring": "Money"
+	},
+	{
+		"image": "2024/sponsors/alm-logo-2022.svg",
+		"link": "https://alm.sh",
+		"name": "alm engineering",
+		"sponsoring": "500 €"
+	},
+	{
+		"image": "2024/sponsors/deno-logo.svg",
+		"link": "https://deno.land",
+		"name": "deno",
+		"sponsoring": "Stickers",
+		"style": "filter: none"
+	},
+	{
+		"image": "2024/sponsors/inovex-logo.png",
+		"link": "https://inovex.de",
+		"name": "inovex",
+		"sponsoring": "Lunch"
+	},
+	{
+		"image": "2024/sponsors/inspired-consulting-logo.svg",
+		"link": "https://inspired.consulting",
+		"name": "Inspired Consulting",
+		"sponsoring": "200 €"
+	},
+	{
+		"image": "2024/sponsors/jambit.svg",
+		"link": "https://jambit.com",
+		"name": "jambit",
+		"sponsoring": "500 €"
+	},
+	{
+		"image": "2024/sponsors/maibornwolff.svg",
+		"link": "https://maibornwolff.com",
+		"name": "maibornwolff",
+		"sponsoring": "Location"
+	},
+	{
+		"image": "2024/sponsors/peerigon.svg",
+		"link": "https://peerigon.com",
+		"name": "peerigon",
+		"sponsoring": "Coffee / Barista"
+	},
+	{
+		"image": "2024/sponsors/project-lary.svg",
+		"link": "https://project-lary.com",
+		"name": "project lary",
+		"sponsoring": "Beverages"
+	},
+	{
+		"image": "2024/sponsors/saab.svg",
+		"link": "https://www.saab.com",
+		"name": "Saab",
+		"sponsoring": "Breakfast"
+	},
+	{
+		"image": "2024/sponsors/satellytes-blue.svg",
+		"link": "https://www.satellytes.com/",
+		"name": "Satellytes Digital Consulting",
+		"sponsoring": "T-Shirts"
+	},
+	{
+		"image": "2024/sponsors/tng.svg",
+		"link": "https://www.tngtech.com/",
+		"name": "TNG Technology Consulting",
+		"sponsoring": "Lunch"
+	},
+	{
+		"image": "2024/sponsors/tiffinger-thiel.svg",
+		"link": "https://tiffinger-thiel.de/",
+		"name": "Tiffinger & Thiel GmbH",
+		"sponsoring": "200 €"
+	},
+	{
+		"image": "2024/sponsors/twilio.svg",
+		"link": "https://twilio.com/",
+		"name": "Twilio",
+		"sponsoring": "400 €"
+	},
+	{
+		"image": "2024/sponsors/codecentric.svg",
+		"link": "https://www.codecentric.de",
+		"name": "codecentric AG",
+		"sponsoring": "Snacks Friday"
+	},
+	{
+		"image": "2024/sponsors/hipsquare.svg",
+		"link": "https://www.hipsquare.net",
+		"name": "HipSquare GmbH",
+		"sponsoring": "Snacks Saturday"
+	}
+]

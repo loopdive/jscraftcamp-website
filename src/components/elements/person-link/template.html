@@ -1,0 +1,25 @@
+<div>
+	<slot />
+	<span id="mastodon">
+		<a id="mastodon-link">
+			<img id="mastodon-logo" src="images/logos/mastodon.svg" alt="Mastodon" />
+		</a>
+	</span>
+	<span id="linkedin">
+		<a id="linkedin-link" rel="external">
+			<img id="linkedin-logo" src="images/logos/linkedin.svg" alt="LinkedIn" />
+		</a>
+	</span>
+</div>
+<style>
+	div {
+		align-items: center;
+		display: inline-flex;
+		gap: 0.25em;
+		line-height: inherit;
+	}
+	img {
+		display: block;
+		height: 1.5em;
+	}
+</style>

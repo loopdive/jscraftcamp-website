@@ -1,0 +1,107 @@
+<div class="columns">
+	<infobox-layout>
+		<span slot="title">Friday</span>
+		<p>
+			JSCraftCamp 2024 will be facilitated by
+			<PersonLink linkedIn="https://www.linkedin.com/in/stefanie-hasler-05458a4/" mastodon=""
+				>Stefanie Hasler</PersonLink
+			>!
+		</p>
+		<ol id="schedule-friday">
+			<li class="lightup"><span class="highlight">09:00 - 10:00</span> Doors open, breakfast</li>
+			<li><span class="highlight">10:00 - 11:00</span> Opening and Marketplace</li>
+			<li><span class="highlight">11:00 - 13:00</span> Two session slots</li>
+			<li><span class="highlight">13:00 - 14:00</span> Lunch</li>
+			<li><span class="highlight">14:00 - 17:00</span> Three session slots</li>
+			<li><span class="highlight">17:00 - 18:00</span> Review and Learnings</li>
+			<li><span class="highlight">18:00 - 22:00</span> Pizza, board games, networking, party</li>
+		</ol>
+	</infobox-layout>
+	<infobox-layout>
+		<span slot="title">Saturday</span>
+		<p>
+			If you did not attend the JSCraftCamp before and are only able to come on Saturday, please try
+			to be there as early as possible. The orga team, facilitator and participants will help you
+			understand the format better if you missed the Opening on Friday.
+		</p>
+		<ol id="schedule-saturday">
+			<li><span class="highlight">09:00 - 10:00</span> Doors open, breakfast</li>
+			<li><span class="highlight">10:00 - 11:00</span> Marketplace</li>
+			<li><span class="highlight">11:00 - 13:00</span> Two session slots</li>
+			<li><span class="highlight">13:00 - 14:00</span> Lunch</li>
+			<li><span class="highlight">14:00 - 17:00</span> Three session slots</li>
+			<li><span class="highlight">17:00 - 18:00</span> Review, Learnings and closing</li>
+		</ol>
+	</infobox-layout>
+</div>
+<style>
+	p {
+		color: rgb(192, 192, 192);
+	}
+
+	ol {
+		display: grid;
+		gap: 1em;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	li {
+		position: relative;
+		display: flex;
+		align-items: center;
+		background: rgba(60, 60, 60, 1);
+		border-radius: 0.5em;
+		display: flex;
+		gap: 1em;
+		padding: 0.5em;
+		font-size: large;
+		box-shadow: 0.1em 0.1em 1em rgba(0, 0, 0, 0.3);
+		border: 1px solid rgba(255, 255, 255, 0.1);
+		transition: background-color box-shadow border transform 0.1s;
+	}
+
+	/* li:hover {
+		background: rgba(128, 128, 0, 1);
+		box-shadow:
+			0.3em 0.3em 1em rgba(0, 0, 0, 0.4),
+			0 0 0.5em rgba(63, 63, 0, 0.8);
+		border: 1px solid rgba(255, 255, 0, 1);
+		transform: scale(1.02);
+	} */
+
+	li span.highlight {
+		color: rgb(220, 220, 220);
+		background-color: rgba(255, 255, 255, 0.1);
+		padding: 0.75rem;
+		border-radius: 0.25rem;
+		box-shadow: 0.2em 0.2em 0.5em rgba(0, 0, 0, 0.3);
+		border: 1px solid rgba(255, 255, 255, 0.1);
+	}
+
+	.columns {
+		display: flex;
+		flex-direction: row;
+		flex-flow: row wrap;
+	}
+
+	.sortable-chosen {
+		background: rgba(128, 128, 0, 1);
+		box-shadow:
+			0.3em 0.3em 1em rgba(0, 0, 0, 0.4),
+			0 0 0.5em rgba(63, 63, 0, 0.8);
+		border: 2px solid rgba(255, 255, 0, 1);
+		transform: scale(1.02);
+	}
+
+	.sortable-ghost {
+		background-color: rgba(255, 255, 255, 0.1);
+		box-shadow:
+			0.3em 0.3em 1em rgba(0, 0, 0, 0.4),
+			0 0 0.5em rgba(63, 63, 0, 0.8);
+		border: 1px solid rgba(80, 80, 80, 1);
+		transform: scale(1.02);
+		opacity: 0;
+	}
+</style>

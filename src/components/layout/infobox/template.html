@@ -1,0 +1,27 @@
+<section>
+	<box-layout style="--box-padding-width: 2em">
+		<div class="inner">
+			<h2 id="title"><slot name="title"></slot></h2>
+			<div class="content">
+				<slot />
+			</div>
+		</div>
+	</box-layout>
+</section>
+<style>
+	section {
+		width: 100%;
+		max-width: 600px;
+	}
+	.content > :first-child {
+		margin-top: 0;
+	}
+	.content > :last-child {
+		margin-bottom: 0;
+	}
+
+	h2 {
+		font-size: 2em;
+		margin: 0;
+	}
+</style>

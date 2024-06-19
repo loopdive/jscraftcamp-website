@@ -1,0 +1,198 @@
+[
+	{
+		"realName": {
+			"givenName": "Thomas",
+			"familyName": "Tränkler",
+			"placeFamilyNameFirst": false,
+			"hideFamilyNameOnWebsite": false
+		},
+		"githubAccountName": "ttraenkler",
+		"company": "Loopdive GmbH",
+		"when": {
+			"friday": true,
+			"saturday": true
+		},
+		"iCanTakeNotesDuringSessions": true,
+		"tags": ["Web Components", "Typescript", "LLMs", "WebAssembly", "WebGPU"],
+		"vegan": false,
+		"vegetarian": false,
+		"whatIsMyConnectionToJavascript": "Fullstack Web Developer",
+		"whatCanIContribute": "Experience with Web Components and Large Language Models",
+		"tShirtSize": "L",
+		"mastodon": "https://mastodon.online/@ttraenkler",
+		"linkedin": "https://www.linkedin.com/in/traenkler/",
+		"X": "ttraenkler",
+		"website": "https://loopdive.com",
+		"photo": "https://avatars.githubusercontent.com/u/347722?v=4"
+	},
+	{
+		"realName": {
+			"givenName": "Jörn",
+			"familyName": "Bernhardt"
+		},
+		"githubAccountName": "Narigo",
+		"company": "compose.us",
+		"when": {
+			"friday": true,
+			"saturday": true
+		},
+		"iCanTakeNotesDuringSessions": true,
+		"tags": ["Flottform.io", "Svelte", "TypeScript", "JSCC", "WebRTC"],
+		"vegan": false,
+		"vegetarian": false,
+		"whatIsMyConnectionToJavascript": "Working for the web since 2.5 decades.",
+		"whatCanIContribute": "I'm happy to share how we built flottform.io and something about Svelte.",
+		"tShirtSize": "XL",
+		"linkedin": "https://www.linkedin.com/in/joern-bernhardt/",
+		"X": "NarigoDF",
+		"website": "https://narigo.dev",
+		"photo": "https://avatars.githubusercontent.com/u/1767865?v=4"
+	},
+	{
+		"realName": {
+			"givenName": "Thomas",
+			"familyName": "Tränkler",
+			"placeFamilyNameFirst": false,
+			"hideFamilyNameOnWebsite": false
+		},
+		"githubAccountName": "ttraenkler",
+		"company": "Loopdive GmbH",
+		"when": {
+			"friday": true,
+			"saturday": true
+		},
+		"iCanTakeNotesDuringSessions": true,
+		"tags": ["Web Components", "Typescript", "LLMs", "WebAssembly", "WebGPU"],
+		"vegan": false,
+		"vegetarian": false,
+		"whatIsMyConnectionToJavascript": "Fullstack Web Developer",
+		"whatCanIContribute": "Experience with Web Components and Large Language Models",
+		"tShirtSize": "L",
+		"mastodon": "https://mastodon.online/@ttraenkler",
+		"linkedin": "https://www.linkedin.com/in/traenkler/",
+		"X": "ttraenkler",
+		"website": "https://loopdive.com",
+		"photo": "https://avatars.githubusercontent.com/u/347722?v=4"
+	},
+	{
+		"realName": {
+			"givenName": "Jörn",
+			"familyName": "Bernhardt"
+		},
+		"githubAccountName": "Narigo",
+		"company": "compose.us",
+		"when": {
+			"friday": true,
+			"saturday": true
+		},
+		"iCanTakeNotesDuringSessions": true,
+		"tags": ["Flottform.io", "Svelte", "TypeScript", "JSCC", "WebRTC"],
+		"vegan": false,
+		"vegetarian": false,
+		"whatIsMyConnectionToJavascript": "Working for the web since 2.5 decades.",
+		"whatCanIContribute": "I'm happy to share how we built flottform.io and something about Svelte.",
+		"tShirtSize": "XL",
+		"linkedin": "https://www.linkedin.com/in/joern-bernhardt/",
+		"X": "NarigoDF",
+		"website": "https://narigo.dev",
+		"photo": "https://avatars.githubusercontent.com/u/1767865?v=4"
+	},
+	{
+		"realName": {
+			"givenName": "Thomas",
+			"familyName": "Tränkler",
+			"placeFamilyNameFirst": false,
+			"hideFamilyNameOnWebsite": false
+		},
+		"githubAccountName": "ttraenkler",
+		"company": "Loopdive GmbH",
+		"when": {
+			"friday": true,
+			"saturday": true
+		},
+		"iCanTakeNotesDuringSessions": true,
+		"tags": ["Web Components", "Typescript", "LLMs", "WebAssembly", "WebGPU"],
+		"vegan": false,
+		"vegetarian": false,
+		"whatIsMyConnectionToJavascript": "Fullstack Web Developer",
+		"whatCanIContribute": "Experience with Web Components and Large Language Models",
+		"tShirtSize": "L",
+		"mastodon": "https://mastodon.online/@ttraenkler",
+		"linkedin": "https://www.linkedin.com/in/traenkler/",
+		"X": "ttraenkler",
+		"website": "https://loopdive.com",
+		"photo": "https://avatars.githubusercontent.com/u/347722?v=4"
+	},
+	{
+		"realName": {
+			"givenName": "Jörn",
+			"familyName": "Bernhardt"
+		},
+		"githubAccountName": "Narigo",
+		"company": "compose.us",
+		"when": {
+			"friday": true,
+			"saturday": true
+		},
+		"iCanTakeNotesDuringSessions": true,
+		"tags": ["Flottform.io", "Svelte", "TypeScript", "JSCC", "WebRTC"],
+		"vegan": false,
+		"vegetarian": false,
+		"whatIsMyConnectionToJavascript": "Working for the web since 2.5 decades.",
+		"whatCanIContribute": "I'm happy to share how we built flottform.io and something about Svelte.",
+		"tShirtSize": "XL",
+		"linkedin": "https://www.linkedin.com/in/joern-bernhardt/",
+		"X": "NarigoDF",
+		"website": "https://narigo.dev",
+		"photo": "https://avatars.githubusercontent.com/u/1767865?v=4"
+	},
+	{
+		"realName": {
+			"givenName": "Thomas",
+			"familyName": "Tränkler",
+			"placeFamilyNameFirst": false,
+			"hideFamilyNameOnWebsite": false
+		},
+		"githubAccountName": "ttraenkler",
+		"company": "Loopdive GmbH",
+		"when": {
+			"friday": true,
+			"saturday": true
+		},
+		"iCanTakeNotesDuringSessions": true,
+		"tags": ["Web Components", "Typescript", "LLMs", "WebAssembly", "WebGPU"],
+		"vegan": false,
+		"vegetarian": false,
+		"whatIsMyConnectionToJavascript": "Fullstack Web Developer",
+		"whatCanIContribute": "Experience with Web Components and Large Language Models",
+		"tShirtSize": "L",
+		"mastodon": "https://mastodon.online/@ttraenkler",
+		"linkedin": "https://www.linkedin.com/in/traenkler/",
+		"X": "ttraenkler",
+		"website": "https://loopdive.com",
+		"photo": "https://avatars.githubusercontent.com/u/347722?v=4"
+	},
+	{
+		"realName": {
+			"givenName": "Jörn",
+			"familyName": "Bernhardt"
+		},
+		"githubAccountName": "Narigo",
+		"company": "compose.us",
+		"when": {
+			"friday": true,
+			"saturday": true
+		},
+		"iCanTakeNotesDuringSessions": true,
+		"tags": ["Flottform.io", "Svelte", "TypeScript", "JSCC", "WebRTC"],
+		"vegan": false,
+		"vegetarian": false,
+		"whatIsMyConnectionToJavascript": "Working for the web since 2.5 decades.",
+		"whatCanIContribute": "I'm happy to share how we built flottform.io and something about Svelte.",
+		"tShirtSize": "XL",
+		"linkedin": "https://www.linkedin.com/in/joern-bernhardt/",
+		"X": "NarigoDF",
+		"website": "https://narigo.dev",
+		"photo": "https://avatars.githubusercontent.com/u/1767865?v=4"
+	}
+]

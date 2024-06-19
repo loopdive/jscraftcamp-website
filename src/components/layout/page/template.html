@@ -1,0 +1,340 @@
+<div class="page">
+	<header>
+		<input id="navbar-open" type="checkbox" />
+		<label for="navbar-open">
+			<img
+				style="height: 50px; width: 50px"
+				src="images/logos/jscraftcamp-logo.svg"
+				alt="JSCraftcamp Logo"
+			/>
+			<span>JSCraftCamp</span>
+			<div class="menu-icon">+</div></label
+		>
+		<nav>
+			<ul>
+				<li class="home">
+					<a href="/">
+						<img
+							style="height: 4.5vw; width: 4.5vw"
+							src="images/logos/jscraftcamp-logo.svg"
+							alt="JSCraftcamp Logo"
+						/>
+						<div>JSCraftCamp</div></a
+					>
+				</li>
+				<li class="mobile-home"><a href="/">Home</a></li>
+				<li><a href="registration">Registration</a></li>
+				<li><a href="participants">Participants</a></li>
+				<li><a href="sponsoring">Sponsoring</a></li>
+				<li><a href="venue">Venue</a></li>
+				<li><a href="values">Values</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="content">
+		<div>
+			<slot />
+		</div>
+	</div>
+	<footer>
+		<div>
+			<img style="max-width: 6em" src="images/logos/jscraftcamp-logo.svg" alt="JSCraftcamp Logo" />
+			<section>
+				<h3>Sitemap</h3>
+				<nav>
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li><a href="sponsoring">Sponsoring</a></li>
+						<li><a href="values">Values</a></li>
+						<li><a href="imprint">Imprint</a></li>
+						<li><a href="imprint#datenschutz">Privacy Policy</a></li>
+					</ul>
+				</nav>
+			</section>
+			<section>
+				<h3>Get in touch</h3>
+				<nav>
+					<ul>
+						<li><a href="team">Team</a></li>
+						<li><a href="https://twitter.com/jscraftcamp" rel="external">Twitter</a></li>
+						<li>
+							<a href="https://github.com/jscraftcamp/website" rel="external">GitHub</a>
+						</li>
+						<li><a href="https://discord.gg/3mHhaXVEjP" rel="external">Discord</a></li>
+					</ul>
+				</nav>
+			</section>
+			<section>
+				<h3>Archive</h3>
+				<nav>
+					<ul>
+						<li>
+							<a href="events/2023">2023</a>
+						</li>
+						<li>
+							<a href="events/2022">2022</a>
+						</li>
+						<li>
+							<a href="events/2019">2019</a>
+						</li>
+						<li>
+							<a href="events/2018">2018</a>
+						</li>
+						<li>
+							<a href="events/2017">2017</a>
+						</li>
+						<li>
+							<a href="events/2016">2016</a>
+						</li>
+					</ul>
+				</nav>
+			</section>
+			<section>
+				<h3>Hosted on</h3>
+				<nav>
+					<ul>
+						<li>
+							<a href="https://www.netlify.com/" rel="external"
+								><img src="images/logos/netlify.svg" alt="Netlify logo" /><span>Netlify</span></a
+							>
+						</li>
+					</ul>
+				</nav>
+			</section>
+		</div>
+	</footer>
+</div>
+<style>
+	:root {
+		--footer-background-color: #000;
+		--footer-text-color: #fff;
+		--max-page-width: 66rem;
+	}
+
+	.page {
+		display: flex;
+		flex-flow: column;
+		align-items: center;
+		/* gap: 2em; */
+		width: 100%;
+		min-height: 100vh;
+		color: #fff;
+	}
+
+	.content {
+		flex: 1;
+		/* padding: 0 2rem; */
+	}
+
+	.content > div {
+		align-items: center;
+		display: flex;
+		flex-flow: column;
+		margin: 0 auto;
+		max-width: var(--max-page-width);
+	}
+
+	header a {
+		color: inherit;
+		text-decoration: none;
+	}
+
+	header a:hover {
+		text-decoration: underline;
+	}
+
+	header {
+		/* 		
+		position: absolute;
+		top: 0;
+		*/
+		display: flex;
+		height: 75px;
+		width: calc(100% - 4rem);
+		max-width: var(--max-page-width);
+		z-index: 1;
+		display: flex;
+	}
+
+	header nav {
+		display: flex;
+		flex-flow: row wrap;
+		align-items: center;
+		justify-content: space-between;
+		gap: 2em;
+		margin: 2vh auto;
+		width: calc(100% - 4rem);
+		max-width: var(--max-page-width);
+	}
+
+	header nav > ul {
+		display: contents;
+	}
+
+	header input {
+		display: none;
+	}
+
+	header li {
+		list-style: none;
+		font-size: 20px;
+	}
+
+	header li.home,
+	label {
+		flex: 1;
+		font-size: 32px;
+		font-weight: 600;
+		font-family: 'Poppins';
+	}
+
+	li.home a,
+	label {
+		display: flex;
+		flex-flow: row nowrap;
+		align-items: center;
+		gap: 0.3em;
+	}
+
+	li.mobile-home {
+		display: none;
+	}
+
+	label {
+		display: none;
+		cursor: pointer;
+	}
+
+	label span {
+		flex: 1;
+	}
+
+	.menu-icon {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 1em;
+		width: 1em;
+		transition: rotate 500ms;
+	}
+
+	@media screen and (max-width: 60em) {
+		label {
+			display: flex;
+		}
+
+		input[type='checkbox'] + label + nav {
+			display: none;
+		}
+
+		input[type='checkbox']:checked + label + nav {
+			display: flex;
+		}
+
+		input[type='checkbox']:checked + label .menu-icon {
+			rotate: calc(3 * 45deg);
+		}
+
+		nav {
+			align-items: stretch;
+			flex-flow: column;
+			font-size: 1em;
+			gap: 0;
+			margin: 1em 0;
+		}
+
+		nav li {
+			flex: 1;
+		}
+
+		nav li a {
+			display: block;
+			padding: 1em;
+			text-align: center;
+		}
+
+		li.home {
+			display: none;
+		}
+
+		li.mobile-home {
+			display: block;
+		}
+	}
+
+	footer a {
+		color: inherit;
+		text-decoration: none;
+	}
+
+	footer a:hover {
+		color: inherit;
+		text-decoration: underline;
+	}
+
+	footer {
+		background: var(--footer-background-color, rgb(0, 0, 0));
+		color: var(--footer-text-color);
+		font-size: 14px;
+		padding: 2rem 0;
+		width: 100vw;
+	}
+
+	footer > div {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		gap: 2em;
+		margin: 0 auto;
+		max-width: var(--max-page-width);
+		width: 100%;
+	}
+
+	footer section {
+		display: flex;
+		flex-flow: column;
+		max-width: 6em;
+	}
+
+	footer h3 {
+		margin: 0 0 1em;
+	}
+
+	footer nav {
+		display: flex;
+		flex-flow: column;
+	}
+
+	footer nav > ul {
+		display: contents;
+	}
+
+	footer nav li a {
+		padding: 0.5em;
+	}
+
+	footer li {
+		list-style: none;
+	}
+
+	footer a {
+		display: flex;
+		align-items: center;
+	}
+
+	.box div {
+		position: relative;
+		background-color: var(--background-color, #fff);
+		box-sizing: border-box;
+		padding: var(--box-padding-width, 0);
+		position: relative;
+	}
+
+	.box div::before {
+		position: absolute;
+		content: '';
+		z-index: -1;
+		inset: 0;
+		box-shadow: var(--box-shadow, 0 0 200px rgba(0, 0, 0, 0.1));
+	}
+</style>

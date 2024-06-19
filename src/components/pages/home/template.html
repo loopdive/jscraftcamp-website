@@ -1,0 +1,153 @@
+<page-layout>
+	<div class="hero">
+		<div>
+			<h1>JSCraftCamp<span style="color: rgb(255, 255, 64)"> 2025</span></h1>
+			<h2>Javascript Unconference</h2>
+			<p>Munich, June 7-8th, Free</p>
+		</div>
+		<img src="images/logos/skyline-black.svg" alt="Munich skyline" />
+	</div>
+
+	<p style="display: flex; align-items: center">
+		Our hashtag is&nbsp;<b>#jscc24</b>&nbsp; find us on &nbsp;<a
+			href="https://mastodontech.de/tags/jscc24"
+			><img src="images/logos/mastodon.svg" alt="mastodon" style="height: 1.5rem"
+		/></a>
+		&nbsp;<a href="https://twitter.com/search?q=%23jscc24"
+			><img src="images/logos/x.svg" alt="twitter" style="height: 1.5rem; filter: invert(1)"
+		/></a>
+	</p>
+	<section>
+		<infobox-layout>
+			<span slot="title">Date</span>
+			<p><strong>7. & 8. June 2024</strong></p>
+			<!-- {#if $registrationState === 'not-yet'} -->
+			<p id="open">Registration will open on April 22nd, 2024. {@html $countdown}</p>
+			<!-- {:else if $registrationState === 'closed'} -->
+			<!-- <p id="registration-closed">
+				Registration is closed, we're full! <a href="/registration">Join the wait list</a>!
+			</p> -->
+			<!-- {:else}
+			<p><a href="{base}/registration">Registration is open!</a></p>
+			<p>Grab your spot!</p>
+			<p>Friday: <strong>{100 - data.fridayParticipants}</strong> spots left</p>
+			<p>Saturday: <strong>{100 - data.saturdayParticipants}</strong> spots left</p>
+			{/if} -->
+		</infobox-layout>
+		<infobox-layout>
+			<span slot="title">Location</span>
+			<p>
+				Thanks to Maiborn Wolff, this year we'll be at the
+				<a
+					href="https://www.maibornwolff.de/location/muenchen-kraftwerk/"
+					rel="external noopener noreferrer"
+					>München Kraftwerk </a
+				>! <br />
+			</p>
+
+			<img
+				style="border-radius: 0.5em; max-width: 100%"
+				src="https://www.maibornwolff.de/wp-content/uploads/2022/07/Kraftwerk-Header.jpg"
+				alt="München Kraftwerk"
+			/>
+
+			<!-- <iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2664.8106048399914!2d11.502770376742562!3d48.094596771238905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479dd922717fc679%3A0x2d2156cb1e3fa2db!2sMaibornWolff%20GmbH!5e0!3m2!1sde!2sde!4v1718406426218!5m2!1sde!2sde"
+					width="450"
+					height="250"
+					style="border: 0"
+					allowfullscreen=""
+					loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"
+				></iframe> -->
+		</infobox-layout>
+		<schedule-section></schedule-section>
+		<infobox-layout>
+			<span slot="title">Free Entrance 💸</span>
+			<p>
+				For participants, you do not need any money to attend. We expect everyone to pay by their
+				active participation during the event and committing themselves to it by creating a PR for
+				themselves. We want everybody to contribute to discussions, share their experiences and help
+				each other to learn something new.
+			</p>
+		</infobox-layout>
+		<infobox-layout>
+			<span slot="title">Sponsor Us ❤️</span>
+			<p>
+				Do you represent a company looking for talented developers? Want to support the JavaScript
+				community? Take a look at <a href="sponsoring">our sponsoring page</a> and find out about
+				what items are still open and how your company can benefit from sponsoring. Or go directly
+				to
+				<a href="https://github.com/orgs/jscraftcamp/projects/7" rel="external"
+					><strong>our Github Sponsorship Board</strong></a
+				>
+				and pick something.
+			</p>
+		</infobox-layout>
+		<infobox-layout>
+			<span slot="title">Unconference</span>
+
+			<p>
+				... a
+				<a href="https://en.wikipedia.org/wiki/Unconference#Barcamp" rel="external"
+					>BarCamp / OpenSpace / Unconference</a
+				>
+				event for JavaScript enthusiasts of all levels. BarCamps and OpenSpaces are
+				participant-driven conferences where attendees create the schedule and lead discussions,
+				making it a truly community-driven experience.
+			</p>
+			<p>
+				JSCraftCamp provides a platform for JavaScript enthusiasts to network and participate in
+				workshops, similar to the
+				<a href="https://www.socrates-conference.de/" rel="external">SoCraTes conference</a>.
+			</p>
+		</infobox-layout>
+		<!-- <Logo animateYears style="max-width: 100%" /> -->
+		<div>
+			<a href="https://x.com/jscraftcamp" rel="external"
+				><img src="images/logos/x.svg" style="filter: invert(1)" alt="Twitter"
+			/></a>
+			<a href="https://github.com/jscraftcamp/website" rel="external"
+				><img src="images/logos/github.svg" alt="GitHub"
+			/></a>
+			<a
+				href="https://www.linkedin.com/events/jscraftcamp2023-jscc237033512998556028929/comments/"
+				rel="external"
+				><img src="images/logos/linkedin.svg" alt="LinkedIn" height="128" width="128"
+			/></a>
+			<a href="https://discord.gg/3mHhaXVEjP" rel="external"
+				><img src="images/logos/discord.svg" alt="Discord"
+			/></a>
+		</div>
+		<!-- <img src="images/logos/skyline.svg" alt="Munich skyline" /> -->
+		<sponsors-section />
+		<partners-section />
+		<whattoexpect-section />
+	</section>
+</page-layout>
+
+<style>
+	section {
+		display: flex;
+		flex-flow: column;
+		align-items: center;
+		gap: 2em;
+	}
+
+	div {
+		display: flex;
+		flex-flow: row wrap;
+		align-items: center;
+		justify-content: center;
+		gap: 1em;
+	}
+
+	div img {
+		height: 40px;
+		width: 40px;
+	}
+
+	img {
+		max-width: 100%;
+	}
+</style>
